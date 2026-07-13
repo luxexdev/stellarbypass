@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Stellar Bypass</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#05070a;
+color:white;
+}
+
+/* topo */
+
+.cupom{
+background:#00d9ff;
+color:#001018;
+text-align:center;
+padding:10px;
+font-weight:bold;
+}
+
+
+header{
+height:80px;
+background:#080c12;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 8%;
+border-bottom:1px solid #111;
+}
+
+
+.logo{
+font-size:25px;
+font-weight:900;
+color:#00d9ff;
+}
+
+
+.search{
+width:400px;
+background:#111821;
+padding:12px;
+border-radius:20px;
+border:1px solid #00d9ff;
+color:white;
+}
+
+
+.cart{
+background:#00d9ff;
+color:black;
+padding:12px 25px;
+border-radius:10px;
+font-weight:bold;
+}
+
+
+
+/* banner */
+
+.banner{
+
+margin:30px auto;
+width:80%;
+height:220px;
+
+background:
+linear-gradient(
+90deg,
+rgba(0,0,0,.8),
+rgba(0,200,255,.4)
+),
+url("https://images.unsplash.com/photo-1542751371-adc38448a05e");
+
+background-size:cover;
+background-position:center;
+
+border-radius:15px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:40px;
+font-weight:900;
+
+color:#00eaff;
+
+}
+
+
+/* produtos */
+
+
+.container{
+
+width:80%;
+margin:auto;
+
+}
+
+
+.title{
+
+font-size:25px;
+border-left:5px solid #00d9ff;
+padding-left:15px;
+margin-bottom:25px;
+
+}
+
+
+.products{
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+
+}
+
+
+.card{
+
+background:#0c1118;
+border:1px solid #1b2633;
+border-radius:15px;
+overflow:hidden;
+transition:.3s;
+
+}
+
+
+.card:hover{
+
+transform:translateY(-5px);
+border-color:#00d9ff;
+
+}
+
+
+.card img{
+
+width:100%;
+height:130px;
+object-fit:cover;
+
+}
+
+
+
+.info{
+
+padding:15px;
+
+}
+
+
+.price{
+
+font-size:22px;
+font-weight:bold;
+margin:10px 0;
+
+}
+
+
+button{
+
+width:100%;
+padding:12px;
+border:none;
+border-radius:8px;
+
+background:#00d9ff;
+font-weight:bold;
+
+cursor:pointer;
+
+}
+
+
+button:hover{
+
+background:white;
+
+}
+
+
+.category{
+
+margin-top:40px;
+padding:15px;
+
+border:1px solid #00d9ff;
+display:inline-block;
+border-radius:10px;
+
+color:#00d9ff;
+
+}
+
+
+footer{
+
+margin-top:50px;
+background:#080c12;
+padding:30px;
+text-align:center;
+
+}
+
+
+@media(max-width:900px){
+
+.products{
+grid-template-columns:1fr;
+}
+
+.search{
+display:none;
+}
+
+.banner{
+font-size:25px;
+}
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="cupom">
+🎁 Cupom STELLAR exclusivo para clientes fiéis
+</div>
+
+
+
+<header>
+
+<div class="logo">
+⭐ STELLAR BYPASS
+</div>
+
+
+<input class="search"
+placeholder="Buscar produto">
+
+
+<div class="cart">
+🛒 Carrinho
+</div>
+
+
+</header>
+
+
+
+<div class="banner">
+
+STELLAR BYPASS
+
+</div>
+
+
+
+
+<section class="container">
+
+
+<h2 class="title">
+🔥 Produtos Disponíveis
+</h2>
+
+
+
+<div class="products">
+
+
+<div class="card">
+
+<img src="https://i.imgur.com/i1kZOP2.png">
+
+<div class="info">
+
+<h3>
+Stellar Bypass Semanal
+</h3>
+
+<div class="price">
+R$ 10,50
+</div>
+
+<button>
+Comprar agora
+</button>
+
+</div>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="https://i.imgur.com/i1kZOP2.png">
+
+<div class="info">
+
+<h3>
+Stellar Bypass Mensal
+</h3>
+
+<div class="price">
+R$ 20,00
+</div>
+
+<button>
+Comprar agora
+</button>
+
+</div>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="https://i.imgur.com/i1kZOP2.png">
+
+<div class="info">
+
+<h3>
+Stellar Bypass Trimestral
+</h3>
+
+<div class="price">
+R$ 45,00
+</div>
+
+<button>
+Comprar agora
+</button>
+
+</div>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="https://i.imgur.com/i1kZOP2.png">
+
+<div class="info">
+
+<h3>
+Stellar Bypass Lifetime
+</h3>
+
+<div class="price">
+R$ 60,00
+</div>
+
+<button>
+Comprar agora
+</button>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+<div class="category">
+
+⭐ STELLAR PREMIUM
+
+</div>
+
+
+
+</section>
+
+
+
+<footer>
+
+© 2026 Stellar Bypass  
+<br>
+Suporte Discord • Atendimento Online
+
+</footer>
+
+
+
+</body>
+</html>
